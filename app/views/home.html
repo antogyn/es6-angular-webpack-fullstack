@@ -5,35 +5,26 @@
   <title><%= pageTitle %></title>
 </head>
 
-<body ng-app="Home">
+<body ng-app="Es6App">
 
 <section>
   <h3>Server Rendering</h3>
 
   <ul>
     <li>
-      addResult: <%= addResult %>
+      addResult: <%= addResult %> <-- should be 2
     </li>
     <li>
-      substractResult: <%= substractResult %>
+      substractResult: <%= substractResult %> <-- should be 8
     </li>
   </ul>
 </section>
 
 <section>
-  <h3>Client Rendering : our module</h3>
+  <h3>Client Rendering : our component</h3>
 
   <ul>
-    <li>
-      addResult: <%= addResult %>
-    </li>
-    <li>
-      substractResult: <%= substractResult %>
-    </li>
-    <li>
-      legacy js:
-    </li>
-
+    <shiny></shiny>
   </ul>
 </section>
 
@@ -42,10 +33,10 @@
 
   <ul>
     <li>
-      <legacy></legacy>
+      <legacy></legacy> <-- should show 'Hello !'
     </li>
     <li>
-      js: <span id="legacy-js">I'm blue</span>
+      js: <span id="legacy-js">I'm blue</span> <-- should be blue
     </li>
 
   </ul>

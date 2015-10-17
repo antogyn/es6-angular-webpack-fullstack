@@ -16,6 +16,8 @@ app.use('/dist/', express.static(path.resolve('./dist'), { maxAge: 1 }));
 // to serve sources
 if (process.env.NODE_ENV === 'development') {
   app.use('/public/', express.static(path.resolve('./public'), {maxAge: 1}));
+  app.use('/shared', express.static(path.resolve('./shared'), {maxAge: 1}));
+  app.use('/legacy_modules/', express.static(path.resolve('./legacy_modules'), {maxAge: 1}));
 }
 
 app.listen(8080);

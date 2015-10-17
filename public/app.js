@@ -6,7 +6,11 @@ import 'expose?angular!angular';
 import '../legacy_modules/js/blue';
 import '../legacy_modules/components/legacy';
 
+// Import our new component
+import ShinyComponent from '../public/components/shiny/shiny';
+
 export default angular
-  .module('Home', [
-    'LegacyModule'
+  .module('Es6App', [
+    'LegacyModule',
+    ShinyComponent
   ]);
