@@ -11,7 +11,11 @@
     "node": "4.2.1",
     "npm": "2.14.x"
   },
-  "scripts": {},
+  "scripts": {
+    "build:dev": "./node_modules/webpack/bin/webpack.js -d",
+    "build:prod": "./node_modules/webpack/bin/webpack.js -p",
+    "start": "node app.js"
+  },
   "dependencies": {
     "angular": "1.4.7",
     "babel": "^5.8.23",
