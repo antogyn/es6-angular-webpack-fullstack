@@ -1,4 +1,4 @@
-const webpack = require('webpack');
+import webpack from 'webpack';
 import path from 'path';
 
 const APP = __dirname;
@@ -9,8 +9,8 @@ export default {
     app: './public/app.js'
   },
   output: {
-    path: './static/scripts',
-    filename: 'application.js'
+    path: './dist',
+    filename: 'app.js'
   },
   module: {
     loaders: [

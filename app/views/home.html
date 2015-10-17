@@ -1,24 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title><%= pageTitle %></title>
+  <meta charset="UTF-8">
+  <title><%= pageTitle %></title>
 </head>
 
 <body>
 
 <section>
-    <h2>Server Rendering</h2>
+  <h3>Server Rendering</h3>
 
-    <ul>
-        <li>
-            addResult: <%= addResult %>
-        </li>
-        <li>
-            substractResult: <%= substractResult %>
-        </li>
-    </ul>
+  <ul>
+    <li>
+      addResult: <%= addResult %>
+    </li>
+    <li>
+      substractResult: <%= substractResult %>
+    </li>
+  </ul>
 </section>
+
+<section>
+  <h3>Client Rendering : our module</h3>
+
+  <ul>
+    <li>
+      addResult: <%= addResult %>
+    </li>
+    <li>
+      substractResult: <%= substractResult %>
+    </li>
+    <li>
+      legacy js:
+    </li>
+
+  </ul>
+</section>
+
+<section>
+  <h3>Client Rendering : legacy</h3>
+
+  <ul>
+    <li>
+      component: <%= addResult %>
+    </li>
+    <li>
+      js: <span id="legacy-js">I'm blue</span>
+    </li>
+
+  </ul>
+</section>
+
+<script src="/dist/app.js"></script>
 
 </body>
 </html>
