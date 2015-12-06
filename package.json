@@ -12,8 +12,8 @@
     "npm": "2.14.x"
   },
   "scripts": {
-    "build:dev": "./node_modules/webpack/bin/webpack.js -d",
-    "build:prod": "./node_modules/webpack/bin/webpack.js -p",
+    "build:dev": "webpack -d",
+    "build:prod": "webpack -p",
     "start": "node app.js"
   },
   "dependencies": {
