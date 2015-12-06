@@ -11,7 +11,7 @@ const ShinyDirective = () => {
   return {
     scope: {},
     restrict: 'E',
-    controller: 'shinyController',
+    controller: 'ShinyController',
     controllerAs: 'ctrl',
     bindToController: {
       addResult: '@'

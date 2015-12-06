@@ -4,7 +4,7 @@ import ShinyDirective from './shiny.directive.js';
 
 export default angular
   .module('ShinyComponent', [])
-  .service('shinyService', ShinyService)
-  .controller('shinyController', ShinyController)
+  .service('ShinyService', ShinyService)
+  .controller('ShinyController', ShinyController)
   .directive('shiny', ShinyDirective)
   .name;
