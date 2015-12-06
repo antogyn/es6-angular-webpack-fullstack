@@ -1,6 +1,6 @@
 angular
   .module('LegacyModule', [])
-  .controller('legacyCtrl', ['$scope', function ($scope) {
+  .controller('LegacyCtrl', ['$scope', function ($scope) {
     $scope.message = 'Hello !';
   }])
   .directive('legacy', function () {
