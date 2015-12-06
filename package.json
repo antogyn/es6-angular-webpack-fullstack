@@ -19,6 +19,7 @@
   "dependencies": {
     "angular": "1.4.7",
     "babel": "^5.8.23",
+    "babel-polyfill": "^6.3.14",
     "ejs": "2.3.x",
     "express": "4.13.x",
     "jquery": "2.1.4"
