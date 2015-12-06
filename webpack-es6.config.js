@@ -1,5 +1,3 @@
-import webpack from 'webpack';
-
 const APP = __dirname;
 
 export default {
