@@ -15,7 +15,7 @@
       return {
         restrict: 'E',
         controller: 'legacySharedCtrl',
-        template: 'I\'m a legacy directive, that can be load with or wothout webbpack, with a message : {{message}}'
+        template: 'I\'m a legacy directive, that can be loaded with or without Webpack, with a message : {{message}}'
       };
     });
 });
