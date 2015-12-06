@@ -8,7 +8,7 @@
     "url": "git+ssh://git@bitbucket.org:antogyn/es6-angular-webpack-fullstack.git"
   },
   "engines": {
-    "node": "4.2.1",
+    "node": "4.2.3",
     "npm": "2.14.x"
   },
   "scripts": {
