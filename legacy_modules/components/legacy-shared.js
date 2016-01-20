@@ -11,11 +11,11 @@
     .controller('LegacySharedCtrl', ['$scope', function ($scope) {
       $scope.message = 'Hi !';
     }])
-    .directive('legacy', function () {
+    .directive('legacyShared', function () {
       return {
         restrict: 'E',
-        controller: 'legacySharedCtrl',
+        controller: 'LegacySharedCtrl',
         template: 'I\'m a legacy directive, that can be loaded with or without Webpack, with a message : {{message}}'
       };
-    });
+    }).name;
 });
