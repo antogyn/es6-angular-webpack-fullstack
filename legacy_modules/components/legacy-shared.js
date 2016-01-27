@@ -13,9 +13,10 @@
     }])
     .directive('legacyShared', function () {
       return {
+        scope: {},
         restrict: 'E',
         controller: 'LegacySharedCtrl',
-        template: 'I\'m a legacy directive, that can be loaded with or without Webpack, with a message : {{message}}'
+        template: 'I\'m a legacy directive, that can be loaded with or without Webpack, with a message : {{ message }}'
       };
     }).name;
 });
