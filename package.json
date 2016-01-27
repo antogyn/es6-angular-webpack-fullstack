@@ -5,7 +5,7 @@
   "author": "Anthony Giniers",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org:antogyn/es6-angular-webpack-fullstack.git"
+    "url": "https://github.com/antogyn/es6-angular-webpack-fullstack"
   },
   "engines": {
     "node": "4.2.3",
