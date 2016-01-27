@@ -1,3 +1,3 @@
-require('babel/register');
+require('babel-register');
 
 require('./app-es6.js');
