@@ -6,7 +6,7 @@ git clone https://github.com/antogyn/es6-angular-webpack-fullstack.git
 # Install dependencies
 npm install
 # Build in development mode
-npm run build:dev
+npm run build:dev -- [--watch]
 # Or, build in production mode
 npm run build:prod
 # Start the app
